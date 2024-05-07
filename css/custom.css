@@ -132,6 +132,8 @@
 /* Content elements */
 
 
+
+
 .demo-2 .bg-img-1 {
 	background-image: url(../images/banner3.jpg);
 }
@@ -144,6 +146,8 @@
 .demo-2 .bg-img-4 {
 	background-image: url(../images/banner.jpg);
 }
+
+
 
 
 .sl-slider-wrapper { width: 1170px;height: 400px;margin: 0 auto;position: relative;overflow: hidden;}
