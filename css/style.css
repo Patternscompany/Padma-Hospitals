@@ -268,9 +268,9 @@ header .navbar{ min-width:100%;  float:left; margin:0; position:relative; z-inde
 /* NAVBAR */
 .navbar-default{ border:none; border-radius:0; background:#fff;}
 .navbar-nav{ float:right; margin:0;display: flex; align-items: center;}
-.navbar-nav li a{ font-size:14px; padding:30px 0; margin:0 12px; border-bottom:3px solid #fff; color:#4c4d53 !important; font-weight:600; position:relative;}
+.navbar-nav li a{ font-size:14px; padding:30px 0; margin:0 12px; color:#4c4d53 !important; font-weight:600; position:relative;}
 .navbar-nav li:last-child a{ margin-right:0;}
-.navbar-nav li a.active:hover{ border-bottom:3px solid #1dd2c8; color:#1dd2c8 !important;}
+.navbar-nav li a.active:hover{ background-color: #ffffff; border-bottom-right-radius:3px solid #ffffff; color:#1dd2c8 !important;}
 .navbar-nav li ul{ width:160px; padding:10px 0; position:absolute; left:0; top:83px; background:#fff; opacity:0; visibility:hidden;}
 .navbar-nav li ul li{ width:100%; float:left; list-style:none; padding:0;}
 .navbar-nav li ul li a{ float:left; border-bottom:none; padding:10px 0;}
@@ -677,8 +677,8 @@ h1, h2, h3, h4, h5, h6{
 	transform: translateY(5px);
   }
 .appointment-btn{
-	background-color: #1dd2c8;
-	color: #fff;
+	background-color: #fff;
+	color: #1dd2c8;
 	border: none;
 	border-radius: 10px;
 	padding-inline: 15px;
@@ -708,6 +708,16 @@ h1, h2, h3, h4, h5, h6{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.top-shape::before {
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 100%;
+    top: 0;
+    left: -17px;
+    background: #696969;
+    transform: skew(40deg);
 }
 .telephone{
 	color: #fff !important;

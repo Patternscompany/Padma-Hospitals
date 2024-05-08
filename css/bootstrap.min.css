@@ -4614,21 +4614,24 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > li > a {
   color: #777;
 }
-.navbar-default .navbar-nav > li > .active {
-  color: #fff ;
-  /* height: 60px !important; */
+.navbar-default .navbar-nav > li > a.active {
+  color: #fff !important;
   background-color: #1dd2c8;
+  border-bottom: 2px solid #fff;
   margin-block: 17px;
   padding: 10px;
   font-size: 15px;
-  color: #fff !important;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
 }
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-  color: #1dd2c8 !important;
-  background-color: transparent;
+  color: #ffffff !important;
+    color: #1dd2c8 !important;
+    background-color: #ffffff;
+    /* border-bottom: 2px solid #fff; */
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-block: 17px;
+    padding: 10px;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
