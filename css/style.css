@@ -443,7 +443,7 @@ header .navbar{ min-width:100%;  float:left; margin:0; position:relative; z-inde
 
 
 /* Inner Header */
-.inner-header{ min-width:100%; padding:30px 0; color:#fff; background:#fff;}
+.inner-header{ min-width:100%; padding:30px 0; color:#fff; background:#7a7b86;}
 .inner-header .container{ position:relative; z-index:2;}
 .inner-header .container h1{ font-weight:800; font-size:30px; margin:10px 0;}
 
@@ -719,6 +719,11 @@ h1, h2, h3, h4, h5, h6{
     background: #696969;
     transform: skew(40deg);
 }
+
 .telephone{
 	color: #fff !important;
+}
+
+.view-all-btn{
+	align-self: center;
 }
