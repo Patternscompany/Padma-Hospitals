@@ -4214,7 +4214,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   float: none;
 }
 .nav-justified > li > a {
-  margin-bottom: 5px;
+  /* margin-bottom: 5px; */
   text-align: center;
 }
 .nav-justified > .dropdown .dropdown-menu {
@@ -4612,6 +4612,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a {
   color: #777;
+}
+.navbar-default .navbar-nav > li > .active {
+  color: #1dd2c8 !important;
+  font-size: 15px;
 }
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
