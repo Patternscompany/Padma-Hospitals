@@ -440,7 +440,7 @@ header .navbar{ min-width:100%;  float:left; margin:0; position:relative; z-inde
 
 
 /* Inner Header */
-.inner-header{ min-width:100%; padding:30px 0; color:#fff; background:#7a7b86;}
+.inner-header{ min-width:100%; padding:30px 0; color:#fff; background:#fff;}
 .inner-header .container{ position:relative; z-index:2;}
 .inner-header .container h1{ font-weight:800; font-size:30px; margin:10px 0;}
 
@@ -448,7 +448,12 @@ header .navbar{ min-width:100%;  float:left; margin:0; position:relative; z-inde
 
 /* Inner Content */
 .inner-content{ float:left;}
-.inner-content h3{ font-size:20px; font-weight:700; color:#1dd2c8; margin-top:0; margin-bottom:5px;}
+.inner-content h3{ font-size: 35px;
+    font-weight: 700;
+    color: #1dd2c8;
+    margin-top: 0;
+    margin-bottom: 45px;
+    text-decoration: underline;}
 .inner-content .side-bar{ width:100%; float:right;}
 .inner-content .side-bar img{ width:100%; float:left; margin-bottom:5px;}
 .inner-content .side-bar .panel-body{ background:#F5F5F5;}
@@ -631,6 +636,39 @@ footer form input[type="submit"]{ margin-top:0; margin-left:8px;}
 .footer-bar h4{ display:none;}
 .footer-bar h2{ font-size:24px;}
 footer form input[type="text"]{ max-width:220px;}
+footer ul{ margin-bottom:40px;}}
+
+h1, h2, h3, h4, h5, h6{
+    line-height: 50px;
+    font-weight: 300;
+	font-family: "Montserrat", sans-serif;
+}
+.readmore-btn {
+	display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #1dd2c8;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-weight: 600;
+	}
+  .readmore-btn:hover {
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+	transform: translateX(5px);
+	transform: translateY(5px);
+  }
+
+  .active{
+	color: #42b3e5;
+	text-decoration: underline;
+  }
+
+
+  
 footer ul{ margin-bottom:40px;}
 
 .text-dark{
