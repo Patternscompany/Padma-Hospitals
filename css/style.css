@@ -662,7 +662,3 @@ h1, h2, h3, h4, h5, h6{
 	transform: translateY(5px);
   }
 
-  .active{
-	color: #42b3e5;
-	text-decoration: underline;
-  }
