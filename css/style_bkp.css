@@ -237,8 +237,9 @@ input[type="text"], input[type="date"], select, textarea:-moz-placeholder { colo
 
 /* Header */
 header{float:left;}
-header .top-bar{min-width:100%; height:50px; float:left; background:#1dd2c8;}
+header .top-bar{min-width:100%; height:50px; float:left; background:#ffffff;}
 header .navbar{ min-width:100%; height:83px; float:left; margin:0; position:relative; z-index:99;}
+
 
 
 /* Top Bar */
