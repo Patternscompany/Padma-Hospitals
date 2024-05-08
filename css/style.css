@@ -522,17 +522,19 @@ label{ width:100%; float:left; font-size:13px; color:rgb(236, 52, 52);}
 .good img{
 	height:150px;
 	width:150px;
+	
  }
  .wonder{
-   text-align: center;
+   margin-top: 170px;
    color: #1DD2C8;
    font-size: 20px;
+   margin-left: 20px;
    
  }
 
  /* Footer */
 footer{ float:left; padding:40px 0;  background-color:  #7a7b86; color:#fff;}
-footer .copyright{ float:right; font-size:15px; text-align:center; margin-top:6px;}
+footer .copyright{ float:right; font-size:18px; text-align:center; margin-top:6px; color: #1DD2C8;}
 footer h4{ font-size:17px; font-weight:800; margin-top:6px; position:relative; margin-bottom:40px;}
 footer h4:after{content:''; width:50px; height:1px; background:#fff; position:absolute; left:0; bottom:-20px;}
 footer form{ float:left; padding-left:30px;}
@@ -599,7 +601,7 @@ footer h4{ font-size:15px;}
 .boxed-image-feature .content-box p{ padding-left:15px;}
 .boxed-image-feature .content-box a{ margin-left:15px; margin-bottom:15px;}
 .boxed-image-feature .content-box .icon{ left:auto; right:0; background:#55EAE2;}
-footer .copyright{ width:100%; float:left; text-align:left;}
+footer .copyright{ width:100%; float:center; text-align:center; }
 footer form{ width:100%; float:left; padding:0; margin-top:30px; margin-bottom:50px;}
 footer form input[type="submit"]{ margin-top:0; margin-left:8px;}
 }
@@ -706,4 +708,7 @@ h1, h2, h3, h4, h5, h6{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.telephone{
+	color: #fff !important;
 }
