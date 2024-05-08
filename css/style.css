@@ -183,7 +183,7 @@ ul li{ margin:0; padding:0; list-style-position:inside;}
 /* Overlay */
 .overlay{position:relative;}
 .overlay:after{content:''; width:100%; height:100%; float:left; position:absolute; left:0; top:0; opacity:0.8; background:#1dd2c8;}
-.queryloader__overlay{font-weight:800; font-size:0px; background-image:url(../images/logo-white.png); background-position:center; background-repeat:no-repeat; color:#1dd2c8; padding: 20px;}
+.queryloader__overlay{font-weight:800; font-size:0px; background-image:url(../images/logo-white.png); background-position:center; background-repeat:no-repeat; color:#1dd2c8;}
 
 
 
@@ -264,14 +264,14 @@ header .navbar{ min-width:100%;  float:left; margin:0; position:relative; z-inde
 
 /* NAVBAR */
 .navbar-default{ border:none; border-radius:0; background:#fff;}
-.navbar-nav{ float:right; margin:0;}
+.navbar-nav{ float:right; margin:0;display: flex; align-items: center;}
 .navbar-nav li a{ font-size:14px; padding:30px 0; margin:0 12px; border-bottom:3px solid #fff; color:#4c4d53 !important; font-weight:600; position:relative;}
 .navbar-nav li:last-child a{ margin-right:0;}
-.navbar-nav li a:hover{ border-bottom:3px solid #1dd2c8; color:#1dd2c8 !important;}
+.navbar-nav li a.active:hover{ border-bottom:3px solid #1dd2c8; color:#1dd2c8 !important;}
 .navbar-nav li ul{ width:160px; padding:10px 0; position:absolute; left:0; top:83px; background:#fff; opacity:0; visibility:hidden;}
 .navbar-nav li ul li{ width:100%; float:left; list-style:none; padding:0;}
 .navbar-nav li ul li a{ float:left; border-bottom:none; padding:10px 0;}
-.navbar-nav li ul li a:hover{border-bottom:none; text-decoration:none;}
+.navbar-nav li ul li a:hover{border-bottom:none; color: #1dd2c8 !important; text-decoration:none;}
 .navbar-nav li:hover ul{ opacity:1; visibility:visible;}
 .nav>li{ float:left;}
 
@@ -661,18 +661,27 @@ h1, h2, h3, h4, h5, h6{
 	transform: translateX(5px);
 	transform: translateY(5px);
   }
-
-
-
-
-  
-footer ul{ margin-bottom:40px;}
-
-.text-dark{
-	color: #000000;
+.appointment-btn{
+	background-color: #1dd2c8;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	padding-inline: 15px;
+	padding-block: 5px;
+}
+.drop-down-icon{
+	font-size: 15px;
+	padding-left: 5px;
+}
+.sub-menu{
+	background-color: #1dd2c8 !important;
+	color: #ffffff !important;
+}
+.menu-item li a{
+	color: #fff !important;
 }
 
-.form-control{
-	height: 55px;
-	margin-bottom: 10px;
+.menu-item li:hover{
+	color: #1dd2c8 !important;
+	background-color: #fff;
 }
