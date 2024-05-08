@@ -1098,12 +1098,12 @@ textarea {
 }
 a {
   color: #337ab7;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 a:focus,
 a:hover {
   color: #23527c;
-  text-decoration: underline;
+
 }
 a:focus {
   outline: thin dotted;
@@ -4614,18 +4614,25 @@ textarea.input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > .active {
-  color: #1dd2c8 !important;
+  color: #fff ;
+  /* height: 60px !important; */
+  background-color: #1dd2c8;
+  margin-block: 17px;
+  padding: 10px;
   font-size: 15px;
+  color: #fff !important;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
-  color: #333;
+  color: #1dd2c8 !important;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
-  color: #555;
+  color: #1dd2c8;
   background-color: #e7e7e7;
 }
 .navbar-default .navbar-nav > .disabled > a,
