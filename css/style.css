@@ -169,7 +169,10 @@ header {width:100%;}
 
 
 /* Tools */
-i{font-size:40px;}
+i{font-size:30px;}
+.footer-bar ul li i{
+	font-size: 40px;
+}
 img{max-width:100%;}
 p{line-height:24px;}
 ul{ margin:0; padding:0;}
@@ -244,7 +247,7 @@ header .navbar{ min-width:100%;  float:left; margin:0; position:relative; z-inde
 /* Top Bar */
 .top-bar .phone{ float:left; color:#fff; line-height:50px; font-size:20px; font-weight:700;}
 .top-bar .phone i{ float:left; margin-right:8px; font-size:20px;}
-.top-bar .language{ float:right; padding:0; width: 100%;}
+.top-bar .language{ float:right; padding:0; width: 100%; display: flex; justify-content: center;}
 .top-bar .language li{ float:left; list-style:none; line-height:50px; margin-left:20px;}
 .top-bar .language li:first-child{ margin-left:0;}
 .top-bar .language li img{ float:left; margin-top:12px; margin-right:6px;}
@@ -684,4 +687,13 @@ h1, h2, h3, h4, h5, h6{
 .menu-item li:hover{
 	color: #1dd2c8 !important;
 	background-color: #fff;
+}
+.top-bar-icon{
+	margin-right: 20px !important;
+	font-size: 25px !important;
+}
+.social-icons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
