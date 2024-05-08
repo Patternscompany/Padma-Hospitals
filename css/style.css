@@ -183,7 +183,7 @@ ul li{ margin:0; padding:0; list-style-position:inside;}
 /* Overlay */
 .overlay{position:relative;}
 .overlay:after{content:''; width:100%; height:100%; float:left; position:absolute; left:0; top:0; opacity:0.8; background:#1dd2c8;}
-.queryloader__overlay{font-weight:800; font-size:0px; background-image:url(../images/logo-white.png); background-position:center; background-repeat:no-repeat; color:#1dd2c8;}
+.queryloader__overlay{font-weight:800; font-size:0px; background-image:url(../images/logo-white.png); background-position:center; background-repeat:no-repeat; color:#1dd2c8; padding: 20px;}
 
 
 
@@ -632,3 +632,12 @@ footer form input[type="submit"]{ margin-top:0; margin-left:8px;}
 .footer-bar h2{ font-size:24px;}
 footer form input[type="text"]{ max-width:220px;}
 footer ul{ margin-bottom:40px;}
+
+.text-dark{
+	color: #000000;
+}}
+
+.form-control{
+	height: 55px;
+	margin-bottom: 10px;
+}
