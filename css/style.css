@@ -727,3 +727,9 @@ h1, h2, h3, h4, h5, h6{
 .view-all-btn{
 	align-self: center;
 }
+.center-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
