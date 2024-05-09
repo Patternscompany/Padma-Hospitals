@@ -491,17 +491,19 @@
       <form>
         <div class="row g-3">
           <div class="col-12 col-sm-6">
-            <label for="service">Select A Service <span class="text-danger">*</span></label>
-            <select id="service" class="form-select form-control bg-light border-0">
-              <option selected>Select A Service</option>
-              <option value="1">Dental Implants</option>
-              <option value="2">Tooth Whitening</option>
-              <option value="3">Pediatric Dentistry</option>
-              <option value="1">Advanced Dentures</option>
-              <option value="1">Root Canal Treatment</option>
-              <option value="1">Invisible Aligners</option>
-              <option value="1">Zirconia & Laser Sintered Crown & bridges</option>
-              <option value="1">Others</option>
+            <label for="service" >Select A Service <span class="text-danger">*</span></label>
+            <select id="service" class="form-select form-control bg-primary border-0" >
+              
+              <option selected  class="define">Select A Service</option>
+              <option value="1" class="define">Dental Implants</option>
+              <option value="2" class="define">Tooth Whitening</option>
+              <option value="3" class="define">Pediatric Dentistry</option>
+              <option value="1" class="define">Advanced Dentures</option>
+              <option value="1" class="define">Root Canal Treatment</option>
+              <option value="1" class="define">Invisible Aligners</option>
+              <option value="1" class="define">Zirconia & Laser Sintered Crown & bridges</option>
+              <option value="1" class="define">Others</option>
+        
             </select>
           </div>
           <div class="col-12 col-sm-6">
@@ -537,6 +539,14 @@
   .think img{
      height:370px;
   }
+  .define{
+    background-color:dimgray;
+    color:#ffffff;
+    font-size: 20px;
+  }
+ option.define:hover{
+    color: #1DD2C8 !important;
+ }
 </style>
 
 
