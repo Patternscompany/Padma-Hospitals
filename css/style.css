@@ -686,7 +686,8 @@ h1, h2, h3, h4, h5, h6{
 }
 .drop-down-icon{
 	font-size: 15px;
-	padding-left: 5px;
+	padding-inline: 5px;
+	padding-block: 5px;
 }
 .sub-menu{
 	background-color: #1dd2c8 !important;
@@ -732,4 +733,17 @@ h1, h2, h3, h4, h5, h6{
 	justify-content: center;
 	align-items: center;
 	margin-top: 20px;
+}
+.icon-container{
+	display: flex;
+}
+.social-link-container{
+	display: flex;
+	padding-top: 5px;
+}
+.social-link-container i{
+	color: #fff;
+}
+.opening-hours{
+	
 }
