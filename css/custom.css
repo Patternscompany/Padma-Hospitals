@@ -154,6 +154,8 @@
 
 
 
+
+
 .sl-slider-wrapper { width: 1170px;height: 400px;margin: 0 auto;position: relative;overflow: hidden;}
 .sl-slider {position: absolute;top: 0;left: 0;}
 
@@ -373,6 +375,38 @@
 	height:80vh;
 	width:100%;
 }
+
+.t{
+	font-size: 500px;
+}
+.c1{
+	background-color: #42b3e5;
+	color:black;
+	padding-bottom: 2px;
+}
+
+.c2{
+	background-color: #1dd2c8;
+	color:black
+}
+.c3{
+	background-color: #42b3e5;
+	color:black;
+	padding-bottom: 25px;
+}
+
+.c4{
+	background-color: #1dd2c8;
+	padding-bottom: 25px;
+	color:black
+
+}
+.ps{
+	text-align: justify;
+}
+
+
+
 
 .imgs {
 	
