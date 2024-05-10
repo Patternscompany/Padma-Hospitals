@@ -169,7 +169,10 @@ header {width:100%;}
 
 
 /* Tools */
-i{font-size:40px;}
+i{font-size:30px;}
+.footer-bar ul li i{
+	font-size: 40px;
+}
 img{max-width:100%;}
 p{line-height:24px;}
 ul{ margin:0; padding:0;}
@@ -244,7 +247,7 @@ header .navbar{ min-width:100%;  float:left; margin:0; position:relative; z-inde
 /* Top Bar */
 .top-bar .phone{ float:left; color:#fff; line-height:50px; font-size:20px; font-weight:700;}
 .top-bar .phone i{ float:left; margin-right:8px; font-size:20px;}
-.top-bar .language{ float:right; padding:0; width: 100%;}
+.top-bar .language{ float:right; padding:0; width: 100%; display: flex; justify-content: center;}
 .top-bar .language li{ float:left; list-style:none; line-height:50px; margin-left:20px;}
 .top-bar .language li:first-child{ margin-left:0;}
 .top-bar .language li img{ float:left; margin-top:12px; margin-right:6px;}
@@ -264,14 +267,14 @@ header .navbar{ min-width:100%;  float:left; margin:0; position:relative; z-inde
 
 /* NAVBAR */
 .navbar-default{ border:none; border-radius:0; background:#fff;}
-.navbar-nav{ float:right; margin:0;}
-.navbar-nav li a{ font-size:14px; padding:30px 0; margin:0 12px; border-bottom:3px solid #fff; color:#4c4d53 !important; font-weight:600; position:relative;}
+.navbar-nav{ float:right; margin:0;display: flex; align-items: center;}
+.navbar-nav li a{ font-size:14px; padding:30px 0; margin:0 12px; color:#4c4d53 !important; font-weight:600; position:relative;}
 .navbar-nav li:last-child a{ margin-right:0;}
-.navbar-nav li a:hover{ border-bottom:3px solid #1dd2c8; color:#1dd2c8 !important;}
+.navbar-nav li a.active:hover{ background-color: #ffffff; border-bottom-right-radius:3px solid #ffffff; color:#1dd2c8 !important;}
 .navbar-nav li ul{ width:160px; padding:10px 0; position:absolute; left:0; top:83px; background:#fff; opacity:0; visibility:hidden;}
 .navbar-nav li ul li{ width:100%; float:left; list-style:none; padding:0;}
 .navbar-nav li ul li a{ float:left; border-bottom:none; padding:10px 0;}
-.navbar-nav li ul li a:hover{border-bottom:none; text-decoration:none;}
+.navbar-nav li ul li a:hover{border-bottom:none; color: #1dd2c8 !important; text-decoration:none;}
 .navbar-nav li:hover ul{ opacity:1; visibility:visible;}
 .nav>li{ float:left;}
 
@@ -440,7 +443,7 @@ header .navbar{ min-width:100%;  float:left; margin:0; position:relative; z-inde
 
 
 /* Inner Header */
-.inner-header{ min-width:100%; padding:30px 0; color:#fff; background:#fff;}
+.inner-header{ min-width:100%; padding:30px 0; color:#fff; background:#7a7b86;}
 .inner-header .container{ position:relative; z-index:2;}
 .inner-header .container h1{ font-weight:800; font-size:30px; margin:10px 0;}
 
@@ -498,7 +501,7 @@ header .navbar{ min-width:100%;  float:left; margin:0; position:relative; z-inde
 #contact-form textarea{ width:684px; max-width:100%; height:100px; padding:10px; border:1px solid #CFEFED; color:#7a7b86;}
 #contact-form .subject{ width:684px !important; max-width:100%;}
 #contact-form input[type="submit"]{ color:#fff; padding:10px 20px; font-size:20px; font-weight:700; background:#1dd2c8;}
-#success, #error {display:none; color: color:rgb(236, 52, 52);;}
+#success, #error {display:none; color:rgb(236, 52, 52);;}
 #success p, #error p {margin-top:20px; float:left; color:#1dd2c8; font-weight:800;}
 label{ width:100%; float:left; font-size:13px; color:rgb(236, 52, 52);}
 #error p {color:#c0392b}
@@ -516,10 +519,22 @@ label{ width:100%; float:left; font-size:13px; color:rgb(236, 52, 52);}
 .footer-bar ul li i{ font-size:21px;}
 
 
+.good img{
+	height:150px;
+	width:150px;
+	
+ }
+ .wonder{
+   margin-top: 170px;
+   color: #1DD2C8;
+   font-size: 20px;
+   margin-left: 20px;
+   
+ }
 
  /* Footer */
-footer{ float:left; padding:40px 0; background:url(../images/world-map.png) center no-repeat #7a7b86; color:#fff;}
-footer .copyright{ float:right; font-size:12px; text-align:right; margin-top:6px;}
+footer{ float:left; padding:40px 0;  background-color:  #7a7b86; color:#fff;}
+footer .copyright{ float:right; font-size:18px; text-align:center; margin-top:6px; color: #1DD2C8;}
 footer h4{ font-size:17px; font-weight:800; margin-top:6px; position:relative; margin-bottom:40px;}
 footer h4:after{content:''; width:50px; height:1px; background:#fff; position:absolute; left:0; bottom:-20px;}
 footer form{ float:left; padding-left:30px;}
@@ -586,7 +601,7 @@ footer h4{ font-size:15px;}
 .boxed-image-feature .content-box p{ padding-left:15px;}
 .boxed-image-feature .content-box a{ margin-left:15px; margin-bottom:15px;}
 .boxed-image-feature .content-box .icon{ left:auto; right:0; background:#55EAE2;}
-footer .copyright{ width:100%; float:left; text-align:left;}
+footer .copyright{ width:100%; float:center; text-align:center; }
 footer form{ width:100%; float:left; padding:0; margin-top:30px; margin-bottom:50px;}
 footer form input[type="submit"]{ margin-top:0; margin-left:8px;}
 }
@@ -661,11 +676,74 @@ h1, h2, h3, h4, h5, h6{
 	transform: translateX(5px);
 	transform: translateY(5px);
   }
+.appointment-btn{
+	background-color: #fff;
+	color: #1dd2c8;
+	border: none;
+	border-radius: 10px;
+	padding-inline: 15px;
+	padding-block: 5px;
+}
+.drop-down-icon{
+	font-size: 15px;
+	padding-inline: 5px;
+	padding-block: 5px;
+}
+.sub-menu{
+	background-color: #1dd2c8 !important;
+	color: #ffffff !important;
+}
+.menu-item li a{
+	color: #fff !important;
+}
 
-  .active{
-	color: #42b3e5;
-	text-decoration: underline;
-  }
+.menu-item li:hover{
+	color: #1dd2c8 !important;
+	background-color: #fff;
+}
+.top-bar-icon{
+	margin-right: 20px !important;
+	font-size: 25px !important;
+}
+.social-icons{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.top-shape::before {
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 100%;
+    top: 0;
+    left: -17px;
+    background: #696969;
+    transform: skew(40deg);
+}
 
+.telephone{
+	color: #fff !important;
+}
 
-  
+.view-all-btn{
+	align-self: center;
+}
+.center-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+.icon-container{
+	display: flex;
+}
+.social-link-container{
+	display: flex;
+	padding-top: 5px;
+}
+.social-link-container i{
+	color: #fff;
+}
+.number-container{
+	padding-top: 2px;
+}

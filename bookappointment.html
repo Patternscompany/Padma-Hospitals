@@ -27,6 +27,7 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <script type="text/javascript" src="js/modernizr.custom.js"></script>
+<script src="https://kit.fontawesome.com/35f3e4fe0e.js" crossorigin="anonymous"></script>
 <noscript>
 <link rel="stylesheet" type="text/css" href="css/styleNoJS.css" />
 </noscript>
@@ -88,7 +89,7 @@
           <!-- end social-media -->
 
           <ul class="nav navbar-nav d-flex align-items-center">
-            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="index.html" >Home</a></li>
             <li><a href="about.html">About Us</a></li>
 
             <li class="menu-item ">
@@ -148,7 +149,7 @@
 
             <li><a href="faq.html">FAQ</a></li>
             <li><a href="contact-us.html">Contact Us</a></li>
-            <li><a href="bookappointment.html"><button class="appointment-btn">
+            <li><a href="bookappointment.html" ><button class="appointment-btn">
                   Book An Appointment
                 </button></a></li>
 
@@ -162,94 +163,62 @@
     <!-- end navbar -->
   </header>
 <!-- end header -->
-<section class="inner-header" data-stellar-background-ratio="0.5">
+
+<section class="frase overlay text-center">
   <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <h1>Sinusitis </h1>
-      </div>
+    <div class="appointment-form h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
+      <h1 class="text-white mb-4">Make Appointment</h1>
+      <form>
+        <div class="row g-3">
+          <div class="col-12 col-sm-6">
+            <label for="service">Select A Service <span class="text-danger">*</span></label>
+            <select id="service" class="form-select form-control bg-light border-0" >
+              <option selected>Select A Service</option>
+              <option value="1">Dental Implants</option>
+              <option value="2">Tooth Whitening</option>
+              <option value="3">Pediatric Dentistry</option>
+              <option value="1">Advanced Dentures</option>
+              <option value="1">Root Canal Treatment</option>
+              <option value="1">Invisible Aligners</option>
+              <option value="1">Zirconia & Laser Sintered Crown & bridges</option>
+              <option value="1">Others</option>
+            </select>
+          </div>
+          <div class="col-12 col-sm-6">
+            <label for="name">Your Name <span class="text-danger">*</span></label>
+            <input type="text" id="name" class="form-control bg-light border-0" placeholder="Your Name" />
+          </div>
+          <div class="col-12 col-sm-6">
+            <label for="email">Your Email <span class="text-danger">*</span></label>
+            <input type="email" id="email" class="form-control bg-light border-0" placeholder="Your Email" />
+          </div>
+          <div class="col-12 col-sm-6">
+            <label for="date">Appointment Date <span class="text-danger">*</span></label>
+            <div class="date" id="date1" data-target-input="nearest">
+              <input type="text" id="date" class="form-control bg-light border-0 datetimepicker-input" placeholder="Appointment Date" data-target="#date1" data-toggle="datetimepicker" />
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 align-items-center wow">
+            <label for="time">Appointment Time <span class="text-danger">*</span></label>
+            <div class="time" id="time1" data-target-input="nearest">
+              <input type="date" id="time" class="form-control bg-light border-0" placeholder="Appointment Time" data-target="#time1" data-toggle="datetimepicker" />
+            </div>
+          </div>
+          <div class="col-12">
+            <button><a href="bookappointment.html" class="btn btn-dark py-3 text-info bg-white" role="button">Make Appointment</a></button>
+          </div>
+        </div>
+      </form>
     </div>
   </div>
 </section>
-<!-- end inner header -->
-<section class="inner-content">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 margin-bottom">
-
-
-      
-          <h1 class="title-bottom-line"><strong>PADMA HOSPITAL</strong>  Laser Interventions</h1>
-
-<img src="images/image30.jpg">
-
-<br>
-<br>
-<p>
-Sinusitis is a condition characterized by inflammation or swelling of the tissue lining the sinuses. It can be caused by viral, bacterial, or fungal infections, as well as allergies or other underlying conditions. Here are some common symptoms of sinusitis:
-</p>
-<p>
-<strong>Facial pain or pressure:</strong>This is often felt around the eyes, forehead, cheeks, and nose. The pain may worsen when bending forward or lying down.
-</p>
-<p>
-<strong>Nasal congestion:</strong> Difficulty breathing through the nose due to blockage or congestion in the nasal passages.
-</p>
-<p>
-<strong>Nasal discharge:</strong> Thick, discolored mucus may drain from the nose or down the throat (postnasal drip).
-</p>
-<p>
-<strong>Cough:</strong>A persistent cough may develop, especially at night, due to postnasal drip irritating the throat.
-</p>
-<p>
- <strong>Reduced sense of smell and taste:</strong> Sinusitis can affect the ability to smell and taste things properly.
-</p>
-<p>
-<strong>Headache:</strong> Sinus headaches are often experienced as a dull, throbbing pain around the forehead, cheeks, or eyes.
-</p>
-<p>
-<strong>Fatigue:</strong> Chronic sinusitis can cause fatigue and generally feeling unwell.
-</p>
-<h2> Treatments for sinusitis may include:</h2>
-
-<p>
-<strong>Nasal corticosteroids:</strong> These prescription sprays help reduce inflammation in the nasal passages, improving symptoms such as congestion, nasal discharge, and facial pain.
-</p>
-<p>
-<strong>Antibiotics:</strong> If sinusitis is caused by a bacterial infection, antibiotics may be prescribed to help clear the infection.
-</p>
-<p>
-<strong>Oral corticosteroids:</strong> In severe cases of sinusitis, oral corticosteroids may be prescribed to reduce inflammation and swelling in the nasal passages and sinuses.
-</p>
-<p>
-<strong>Saline nasal irrigation:</strong> This involves rinsing the nasal passages with a saline solution to help clear mucus and reduce inflammation.
-</p>
-<p>
-<strong>Surgery:</strong> In cases of chronic or recurrent sinusitis that do not respond to other treatments, surgery may be recommended to improve drainage and airflow in the sinuses. Endoscopic sinus surgery is a common procedure used to remove blockages and widen the sinus passages.
-</p>
-<p>
-<strong>Immunotherapy:</strong> For sinusitis caused by allergies, immunotherapy (allergy shots) may be recommended to help desensitize the immune system to specific allergens, reducing the frequency and severity of sinusitis episodes.
-</p>
-<p>
-It's important to consult with a healthcare professional for an accurate diagnosis and appropriate treatment plan for sinusitis, especially if symptoms are severe or persistent.
-
-</p>
-
-      </div>
-    </div>
-    <!-- end row --> 
-  </div>
-</section>
-
-<!-- end section -->
-
-  
-    
-  </div>
-</div>
-    
-  </div>
-  <!-- end container --> 
-</section>
+  <!-- end frase -->
+  <style>
+    .form-control{
+        height: 55px;
+        margin-bottom: 10px;
+    }
+  </style>
 <footer>
   <div class="container">
     <div class="row">
@@ -329,22 +298,7 @@ It's important to consult with a healthcare professional for an accurate diagnos
     </div>
     <!-- end container -->
   </section>
-<!-- end footer --> 
-
-<script type='text/javascript' src="js/jquery.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/owl.carousel.js"></script> 
-<script src="js/wow.js"></script> 
-<script src="js/jquery.stellar.js"></script> 
-<script src="js/smooth-scroll.js"></script> 
-<script src="js/queryloader2.min.js" type="text/javascript"></script> 
-<script src="js/bootstrap-datepicker.js"></script> 
-<script src="js/jquery.fancybox.js"></script> 
-<script src="js/jquery.maskedinput.js"></script> 
-<script src="js/jquery.ba-cond.min.js" type="text/javascript" ></script> 
-<script src="js/jquery.slitslider.js" type="text/javascript" ></script> 
-<script src="js/slider-settings.js"></script> 
-<script src="js/Medicina.js"></script>
-<script src="https://kit.fontawesome.com/35f3e4fe0e.js" crossorigin="anonymous"></script>
+  <!-- end footer --> 
+  
 </body>
 </html>
