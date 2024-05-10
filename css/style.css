@@ -465,13 +465,13 @@ header .navbar{ min-width:100%;  float:left; margin:0; position:relative; z-inde
 .specialists{ background:#fff;}
 .specialists a{color:#999; border-bottom:2px solid #999; padding:6px 0; font-weight:700; display:inline-block;} 
 .specialists a:hover{ text-decoration:none; color:#1dd2c8; border-bottom:2px solid #1dd2c8;}
-.specialists .members{ width:100%; float:left; padding:0 10px; margin-bottom:40px; border:1px solid #eee; position:relative;}
+.specialists .members{ width:100%; float:left; padding:0 10px; margin-bottom:40px;  position:relative;}
 .specialists .members .desc{ width:100%; height:100%; float:left; background:#1dd2c8; color:#fff; position:absolute; left:0; top:0; opacity:0; padding:20px; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; -ms-transition: all 0.3s ease; transition: all 0.3s ease;}
 .specialists .members .desc h2{ font-weight:700; font-size:24px; margin-bottom:30px;}
 .specialists .members:hover .desc{opacity:1;}
 .specialists .members img{ width:100%; padding:0 10px; padding-top:20px;}
 .specialists .members h4{ width:100%; padding:7px 8px; display:inline-block; font-weight:700; border-bottom:1px solid #eee; margin:0; font-size:13px;}
-.specialists .members h6{ width:100%; color:#1dd2c8; padding:10px 8px; font-size:14px; display:inline-block; margin:0;}
+.specialists .members h6{ width:100%; color:black; padding:10px 8px; font-size:14px; display:inline-block; margin:0;}
 
 
 
