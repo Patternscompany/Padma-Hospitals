@@ -247,7 +247,7 @@ header .navbar{ min-width:100%;  float:left; margin:0; position:relative; z-inde
 /* Top Bar */
 .top-bar .phone{ float:left; color:#fff; line-height:50px; font-size:20px; font-weight:700;}
 .top-bar .phone i{ float:left; margin-right:8px; font-size:20px;}
-.top-bar .language{ float:right; padding:0; width: 100%; display: flex; justify-content: center;}
+.top-bar .language{ float:right; padding:0; width: 100%;}
 .top-bar .language li{ float:left; list-style:none; line-height:50px; margin-left:20px;}
 .top-bar .language li:first-child{ margin-left:0;}
 .top-bar .language li img{ float:left; margin-top:12px; margin-right:6px;}
@@ -267,14 +267,14 @@ header .navbar{ min-width:100%;  float:left; margin:0; position:relative; z-inde
 
 /* NAVBAR */
 .navbar-default{ border:none; border-radius:0; background:#fff;}
-.navbar-nav{ float:right; margin:0;display: flex; align-items: center;}
-.navbar-nav li a{ font-size:14px; padding:30px 0; margin:0 12px; color:#4c4d53 !important; font-weight:600; position:relative;}
+.navbar-nav{ float:right; margin:0;}
+/* .navbar-nav li a{ font-size:14px; padding:30px 0; margin:0 12px; border-bottom:3px solid #fff; color:#4c4d53 !important; font-weight:600; position:relative;} */
 .navbar-nav li:last-child a{ margin-right:0;}
-.navbar-nav li a.active:hover{ background-color: #ffffff; border-bottom-right-radius:3px solid #ffffff; color:#1dd2c8 !important;}
+.navbar-nav li a:hover{ border-bottom:3px solid #1dd2c8; color:#1dd2c8 !important;}
 .navbar-nav li ul{ width:160px; padding:10px 0; position:absolute; left:0; top:83px; background:#fff; opacity:0; visibility:hidden;}
 .navbar-nav li ul li{ width:100%; float:left; list-style:none; padding:0;}
 .navbar-nav li ul li a{ float:left; border-bottom:none; padding:10px 0;}
-.navbar-nav li ul li a:hover{border-bottom:none; color: #1dd2c8 !important; text-decoration:none;}
+.navbar-nav li ul li a:hover{border-bottom:none; text-decoration:none;}
 .navbar-nav li:hover ul{ opacity:1; visibility:visible;}
 .nav>li{ float:left;}
 
@@ -292,7 +292,6 @@ header .navbar{ min-width:100%;  float:left; margin:0; position:relative; z-inde
 .slider .demo-2{ width:100%; float:left;}
 .slider h2{ font-size:38px; color:#7a7b86; font-weight:800;}
 .slider h2 u{ font-size:60px; color:#1dd2c8;}
-
 
 /* Appointment Form */
 .appointment{ width:100%; margin-top:-50px; padding:0; z-index:9;}
