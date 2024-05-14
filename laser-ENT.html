@@ -56,46 +56,41 @@
 </head>
 
 <body>
-  <div class="container-fluid bg-light ps-5 pe-0 d-none d-lg-block">
-    <div class="row gx-0">
-      <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
-        <div class="d-inline-flex align-items-center" style="text-align: left; color: #000000; font-size: 20px;">
-          <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Opening Hours:
-            10:00 AM to 8:00 PM</small>
-        </div>
-      </div>
-      <div class="col-md-6 text-center text-lg-end" style="background-color: dimgray;">
-        <div class="position-relative d-inline-flex align-items-center bg-primary1 text-white top-shape px-5">
-          <div class="me-3 pe-3 border-end py-2" >
-            <p class="m-0" style="color: #ffffff;">
-              <i class="fa fa-envelope-open me-2" ></i> padmahospital@gmail.com|
-              <i class="fa fa-phone-alt me-2"><a href="tel:9290660072"></i>+91 9290660072|</a>
-              <i class="fa fa-phone-alt me-2"><a href="tel:9290660072"></i>+91 9032660072|</a>
-              
-            </p>
-          </div>
-          <div class="py-2">
-            <p class="m-0">
-              <!-- <i class="fa fa-phone-alt me-2"></i>+91 9398819667 -->
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
   <header>
-    
-    <!-- end top-bar -->
-    <!--Navbar Start-->
-
-    <!--Navbar End-->
-    <!-- end container -->
+    <div class="top-bar">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <a href="tel:9290660072" alt="9290660072"><span class="phone"><i
+                  class="ion-android-call"></i>9290660072</span></a>
+          </div>
+          <!-- end col-3 -->
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <span class="phone" style="text-align: center; width: 100%;">
+              <a href="tel:9032660072" alt="9032660072"><span class="phone"><i
+                    class="ion-android-call"></i>9032660072</span></a>
+              <!-- end form -->
+          </div>
+          <!-- end col-6 -->
+          <div class="col-md-4 col-sm-12 col-xs-12">
+            <ul class="language">
+              <li><a href="https://wa.link/eh9acq"><img src="images/flag-brazil.png" alt="Image">Book An Appointment</a>
+              </li>
+            </ul>
+            <!-- end language -->
+          </div>
+          <!-- end col-3 -->
+        </div>
+        <!-- end row -->
+      </div>
+      <!-- end container -->
     </div>
     <!-- end top-bar -->
-    <nav class="navbar navbar-default" role="navigation" style="background-color:#1DD2C8;">
+
+    <nav class="navbar" role="navigation">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle toggle-menu menu-left push-body" data-toggle="collapse"
+          <button type="button" class="navbar-toggle bg-dark  toggle-menu menu-left push-body" data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span
               class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
           <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Image"></a>
@@ -105,34 +100,32 @@
           id="bs-example-navbar-collapse-1">
           <!-- end social-media -->
 
-          <ul class="nav navbar-nav d-flex align-items-center">
-            <li><a href="index.html" >Home</a></li>
-            <li><a href="about.html">About Us</a></li>
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a>
 
-            <li class="menu-item ">
-              <a href="#"class="active">Services<i class="fa fa-chevron-down pq-submenu-icon drop-down-icon"></i></a>
+            <li class="menu-item">
+              <a href="#" class="extra-style">
+                <spam class="font-weight-bold font-size:900;">Services<i class="fa fa-chevron-down pq-submenu-icon drop-down-icon"></i></spam>
+              </a>
               <ul class="sub-menu">
 
                 <li class="menu-item-has-children">
-                  <a href="laser-ENT.html">Laser ENT Clinics</a>
+                  <a href="Services.html#LENTC">Laser ENT Clinics</a>
 
                 </li>
                 <li class="menu-item ">
-                  <a href="Proctology.html">Laser Piles and Fissures Treatment </a>
+                  <a href="Services.html#LPFT">Laser Piles and Fissures Treatment </a>
+                </li>
+                <li class="menu-item ">
+                  <a href="Services.html#VVLT">Varicose Veins Laser Treatment </a>
                 </li>
                 <li class="menu-item-has-children ">
-                  <a href="Gynaecology.html">Advanced Gynaec Services</a>
+                  <a href="Services.html#AGS">Advanced Gynaec Services</a>
 
                 </li>
                 <li class="menu-item ">
-                  <a href="Varicose-Veins-Laser-Treatment.html">Varicose Veins Laser Treatment </a>
-                </li>
-                <!-- <li class="menu-item-has-children ">
-                                             <a href="Services.html#AGS">Advanced Gynaec Services</a><i class="fa fa-chevron-down pq-submenu-icon"></i>
-                                            
-                                          </li> -->
-                <li class="menu-item ">
-                  <a href="Laser-vaginoplasty.html">Laser Vaginoplasty</a>
+                  <a href="Services.html#LV">Laser Vaginoplasty</a>
                 </li>
 
                 <li class="menu-item ">
@@ -141,16 +134,20 @@
               </ul>
             </li>
 
-            <li><a href="doctors.html">Our Doctors</a></li>
+            <li><a href="index.html#doctors">Our Doctors</a></li>
 
 
 
             <li class="menu-item ">
-              <a href="#">Blogs<i class="fa fa-chevron-down pq-submenu-icon drop-down-icon"></i></a>
+              <a href="#" class="extra-style">Blogs<i class="fa fa-chevron-down pq-submenu-icon drop-down-icon"></i></a>
               <ul class="sub-menu">
-                <li class="menu-item-has-children ">
-                  <a href="ENT-blogs.html">ENT Blogs<i class="fa fa-chevron-down pq-submenu-icon drop-down-icon"></i></a>
-
+                <li class="menu-item ">
+                  <a href="#">ENT Blogs<i class="fa fa-chevron-down pq-submenu-icon drop-down-icon"></i></a>
+                  <ul class="sub-menu-list">
+                    <li class="sub-menu-item">
+                      <a href="nosebleeds.html">Nose Bleed</a>
+                    </li>
+                  </ul>
                 </li>
                 <li class="menu-item-has-children">
                   <a href="Piles-blogs.html">Piles Blogs<i class="fa fa-chevron-down pq-submenu-icon drop-down-icon"></i></a>
@@ -166,10 +163,6 @@
 
             <li><a href="faq.html">FAQ</a></li>
             <li><a href="contact-us.html">Contact Us</a></li>
-            <li><a href="bookappointment.html"><button class="appointment-btn">
-                  Book An Appointment
-                </button></a></li>
-
           </ul>
           <!-- end nav -->
         </div>
@@ -178,6 +171,8 @@
       <!-- end container -->
     </nav>
     <!-- end navbar -->
+
+    
   </header>
   <!-- end header -->
   <section class="inner-header" data-stellar-background-ratio="0.5">
