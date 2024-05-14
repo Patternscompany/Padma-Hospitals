@@ -459,7 +459,7 @@ header .navbar{ min-width:100%; height:83px; float:left; margin:0; position:rela
 .specialists{ background:#fff;}
 .specialists a{color:#999; border-bottom:2px solid #999; padding:6px 0; font-weight:700; display:inline-block;} 
 .specialists a:hover{ text-decoration:none; color:#1dd2c8; border-bottom:2px solid #1dd2c8;}
-.specialists .members{ width:100%; float:left; padding:0 10px; margin-bottom:40px; border:1px solid #eee; position:relative;}
+.specialists .members{ width:100%; float:left; padding:30px 10px; margin-bottom:40px; border:1px solid #eee; position:relative; }
 .specialists .members .desc{ width:100%; height:100%; float:left; background:#1dd2c8; color:#fff; position:absolute; left:0; top:0; opacity:0; padding:20px; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; -ms-transition: all 0.3s ease; transition: all 0.3s ease;}
 .specialists .members .desc h2{ font-weight:700; font-size:24px; margin-bottom:30px;}
 .specialists .members:hover .desc{opacity:1;}
