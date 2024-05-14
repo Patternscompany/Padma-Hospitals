@@ -1485,9 +1485,9 @@ label {
 }
 .footer-bar ul {
   float: right;
-  margin-top: 5px;
+  /* margin-top: 5px;
   margin-left: 30px;
-  padding-left: 10px;
+  padding-left: 10px; */
   border-left: 1px solid #54e2da;
 }
 .footer-bar ul li {
