@@ -253,6 +253,9 @@ ul li {
   position: relative;
   border-bottom: 1px solid #eee;
   margin-top: 0;
+  @media (max-width:992px){
+    font-size: 25px;
+  }
 }
 .title-bottom-line:after {
   content: "";
@@ -1268,8 +1271,11 @@ header .navbar {
   font-weight: 700;
   color: #1dd2c8;
   margin-top: 0;
-  margin-bottom: 45px;
+  /* margin-bottom: 45px; */
   text-decoration: underline;
+  @media (max-width:992px){
+    font-size: 20px;
+  }
 }
 .inner-content .side-bar {
   width: 100%;
@@ -1961,6 +1967,9 @@ h6 {
   line-height: 50px;
   font-weight: 300;
   font-family: "Montserrat", sans-serif;
+  @media (max-width:992px){
+    line-height: 30px;
+  }
 }
 .readmore-btn {
   display: inline-block;

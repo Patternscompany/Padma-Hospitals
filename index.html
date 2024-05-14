@@ -466,7 +466,7 @@
       <!-- end col-6 -->
       <div class="row">
         <div class="col-xs-12 text-center">
-          <div class="article-image think"><img src="images/image9.jpg" alt="Image"></div>
+          <div class="article-image think"><img src="images/image9.jpg" alt="Image" class="doctor-img"></div>
           <!-- <img src="images/rated-article.png" alt="Image" class="rated-article">-->
           <h3><strong> Dr.Ramesh Kumar Pitchika</strong></h3>
           <!-- <small>Posted <strong>2nd March </strong>by George Washington</small>-->
@@ -483,6 +483,13 @@
     </div>
     <!-- end container -->
   </section>
+  <style>
+    .doctor-img{
+      @media (maxwidth:992px){
+        height: 150px !important;
+      }
+    }
+  </style>
   <!-- end latest-news -->
   <!-- <section class="frase overlay text-center">
   <div class="container">
@@ -537,7 +544,10 @@
   <!-- end frase -->
   <style>
     .think img {
-      height: 370px;
+      height: 317px;
+      @media (max-width:992px){
+        height: 150px;
+      }
     }
 
     .define {
@@ -708,7 +718,7 @@
           <h3>What patients say about us </h3>
         </div>
 
-        <div class="col-md-3 col-sm-4 col-xs-6 c1">
+        <div class="col-md-3 col-sm-4 col-xs-12 c1">
           <div class="members">
 
             <p class="ps">I am fully satisfied with the piles treatment. From the first day onwards the doctor have made
@@ -721,7 +731,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 col-sm-4 col-xs-6 c2">
+        <div class="col-md-3 col-sm-4 col-xs-12 c2">
           <div class="members">
 
             <p class="ps">A highly recommend hospital for people suffering from piles, fissures and hemorrhoids with
@@ -732,7 +742,7 @@
             <h6 class="testimonial-mem">Yerramsetti Sai Tejasri</h6>
           </div>
         </div>
-        <div class="col-md-3 col-sm-4 col-xs-6 c3">
+        <div class="col-md-3 col-sm-4 col-xs-12 c3">
           <div class="members">
 
             <p class="ps">Myself P. Vasantha Mahalaxmi. I recently got my treatment done at Padma hospital for fissure
@@ -744,7 +754,7 @@
           </div>
         </div>
 
-        <div class="col-md-3 col-sm-4 col-xs-6 c4">
+        <div class="col-md-3 col-sm-4 col-xs-12 c4">
           <div class="members">
 
             <p class="ps">Dr. Ramesh from Padma Hospital gave me good treatment for my wrinkles on my face. I am young
