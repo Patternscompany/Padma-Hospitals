@@ -1480,7 +1480,7 @@
   }
   .footer-bar h2 {
     float: left;
-    color: #fff;
+    color: #fff !important;
     margin: 0;
     line-height: 40px;
     font-weight: 700;
@@ -1514,7 +1514,11 @@
   .footer-bar ul li i {
     font-size: 21px;
   }
-
+.good{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
   .good img {
     height: 150px;
     width: 150px;
@@ -1931,6 +1935,7 @@
     }
     .slider h2 {
       font-size: 28px;
+      line-height: 35px;
     }
     .slider h2 u {
       font-size: 40px;
@@ -1949,6 +1954,7 @@
     }
     .frase h2 {
       font-size: 33px;
+      line-height: 45px;
     }
     .footer-bar h4 {
       display: none;
@@ -1970,11 +1976,11 @@
   h4,
   h5,
   h6 {
-    line-height: 30px;
+    line-height: 50px;
     font-weight: 300;
     font-family: "Montserrat", sans-serif;
     @media (max-width:992px){
-      line-height: 20px;
+      line-height: 30px;
     }
   }
   .readmore-btn {
@@ -2091,4 +2097,13 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
+  }
+
+  .good a{
+    color: #fff;
+  }
+  .good a i.ion-android-call{
+    color: #fff;
+    padding-right: 10px;
+    font-size: 23px;
   }

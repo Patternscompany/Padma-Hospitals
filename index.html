@@ -91,7 +91,7 @@
 
           <ul class="nav navbar-nav">
             <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a>
+            <li><a href="about.html">About Us</a></li>
 
             <li class="menu-item">
               <a href="Services.html" class="extra-style">
@@ -314,7 +314,7 @@
                 class="img-fluid scale-image" alt=""></a>
             <div class="blog-info">
               <a href="#url">
-                <h4 class="mb-0 text-dark">Anal Fissures Laser Treatment</h4>
+                <h4 class="mb-0">Anal Fissures Laser Treatment</h4>
               </a>
               <p class="text-info">A non healing crack in the skin of the anus causing pain during and after
                 defecation.</p>
@@ -328,7 +328,7 @@
                 class="img-fluid scale-image" alt=""></a>
             <div class="blog-info">
               <a href="#url">
-                <h4 class="mb-0 text-dark">Laser Piles and Fissures Treatment</h4>
+                <h4 class="mb-0">Laser Piles and Fissures Treatment</h4>
               </a>
               <p class="text-info">Piles are protrusions of varicose veins and connective tissue around the anal canal
                 extending to inside the rectum.</p>
@@ -342,7 +342,7 @@
                 class="img-fluid scale-image" alt=""></a>
             <div class="blog-info">
               <a href="#url">
-                <h4 class="mb-0 text-dark">Anal Fistula Laser Treatment</h4>
+                <h4 class="mb-0">Anal Fistula Laser Treatment</h4>
               </a>
               <p class="text-info">Along standing draining “Pimple” around the anus causing frequent soiling of
                 underwear,itching pain & discharge.</p>
@@ -356,7 +356,7 @@
                 class="img-fluid scale-image" alt=""></a>
             <div class="blog-info">
               <a href="#url">
-                <h4 class="mb-0 text-dark">Laser Treatment for Pilonidal Sinus</h4>
+                <h4 class="mb-0">Laser Treatment for Pilonidal Sinus</h4>
               </a>
               <p class="text-info">Sometimes called as “Haircyst”. It is an infected tract under the skin between the
                 buttocks.</p>
@@ -376,13 +376,22 @@
       background-color: #ffffff;
       padding: 10px;
       border-radius: 30px;
-      height: 420px;
+      height: 450px;
+      width: 27rem;
+      margin-right: 20px;
+      @media (max-width:992px){
+        width: 100%;
+        margin-bottom: 30px;
+        height: 100%;
+      }
     }
 
     .card-item img {
       padding-bottom: 10px;
       width: 200px;
-    }
+      @media (max-width:992px){
+        width: 75%;
+      }    }
     .blog-info{
       display: flex;
       flex-direction: column;
@@ -890,7 +899,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4 col-sm-12 col-xs-12 good"> <img src="images/logo.png" alt="Image" class="pull-left">
-          <p class="wonder"><a href="tel:9032660072">9032660072</p></a>
+          <a href="tel:9032660072" alt="9032660072"><span class="phone"><i
+            class="ion-android-call"></i>9032660072</span></a>
 
         </div>
         <!-- end col-2 -->
