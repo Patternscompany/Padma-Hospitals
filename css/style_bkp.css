@@ -237,8 +237,9 @@ input[type="text"], input[type="date"], select, textarea:-moz-placeholder { colo
 
 /* Header */
 header{float:left;}
-header .top-bar{min-width:100%; height:50px; float:left; background:#1dd2c8;}
+header .top-bar{min-width:100%; height:50px; float:left; background:#ffffff;}
 header .navbar{ min-width:100%; height:83px; float:left; margin:0; position:relative; z-index:99;}
+
 
 
 /* Top Bar */
@@ -264,8 +265,8 @@ header .navbar{ min-width:100%; height:83px; float:left; margin:0; position:rela
 
 /* NAVBAR */
 .navbar-default{ border:none; border-radius:0; background:#fff;}
-.navbar-nav{ float:right; margin:0;}
-.navbar-nav li a{ font-size:14px; padding:30px 0; margin:0 12px; border-bottom:3px solid #fff; color:#4c4d53 !important; font-weight:600; position:relative;}
+.navbar-nav{ float:right; margin:0; padding-block: 8px;}
+.navbar-nav li a{ font-size:14px; padding:30px 0; margin:0 12px; border-bottom:none !important; color:#4c4d53 !important; font-weight:600; position:relative;}
 .navbar-nav li:last-child a{ margin-right:0;}
 .navbar-nav li a:hover{ border-bottom:3px solid #1dd2c8; color:#1dd2c8 !important;}
 .navbar-nav li ul{ width:160px; padding:10px 0; position:absolute; left:0; top:83px; background:#fff; opacity:0; visibility:hidden;}
@@ -440,7 +441,7 @@ header .navbar{ min-width:100%; height:83px; float:left; margin:0; position:rela
 
 
 /* Inner Header */
-.inner-header{ min-width:100%; padding:30px 0; color:#fff; background:#7a7b86;}
+.inner-header{ min-width:100%; padding:30px 0; color:#fff; background:#7a7b86 !important;}
 .inner-header .container{ position:relative; z-index:2;}
 .inner-header .container h1{ font-weight:800; font-size:30px; margin:10px 0;}
 
@@ -458,7 +459,7 @@ header .navbar{ min-width:100%; height:83px; float:left; margin:0; position:rela
 .specialists{ background:#fff;}
 .specialists a{color:#999; border-bottom:2px solid #999; padding:6px 0; font-weight:700; display:inline-block;} 
 .specialists a:hover{ text-decoration:none; color:#1dd2c8; border-bottom:2px solid #1dd2c8;}
-.specialists .members{ width:100%; float:left; padding:0 10px; margin-bottom:40px; border:1px solid #eee; position:relative;}
+.specialists .members{ width:100%; float:left; padding:30px 10px; margin-bottom:40px; border:1px solid #eee; position:relative; }
 .specialists .members .desc{ width:100%; height:100%; float:left; background:#1dd2c8; color:#fff; position:absolute; left:0; top:0; opacity:0; padding:20px; -moz-transition: all 0.3s ease; -o-transition: all 0.3s ease; -ms-transition: all 0.3s ease; transition: all 0.3s ease;}
 .specialists .members .desc h2{ font-weight:700; font-size:24px; margin-bottom:30px;}
 .specialists .members:hover .desc{opacity:1;}
@@ -470,7 +471,7 @@ header .navbar{ min-width:100%; height:83px; float:left; margin:0; position:rela
 
 /* News */
 .news-list{ width:100%;}
-.news-list img{ width:100%;}
+.news-list img{ width:50%;}
 .news-list h3{ margin-bottom:10px; font-size:24px;}
 .news-list small{ margin-bottom:30px; display:block;}
 .news-list a{ margin-top:20px;}
