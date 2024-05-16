@@ -2067,6 +2067,12 @@ text-transform: uppercase;
     padding-inline: 5px;
     padding-block: 5px;
     float: right;
+    display: block;
+  }
+  @media(max-width:992px){
+   .drop-right-icon{
+    display: none !important;
+   }
   }
   .sub-menu {
     background-color: #1dd2c8 !important;
@@ -2165,7 +2171,12 @@ display: block;
 
   }
   .m-blog{
+  
     display: none;
+  }
+  .m-blog span{
+    font-weight: 900;
+    margin-right: 10px;
   }
   @media(max-width:992px){
    
