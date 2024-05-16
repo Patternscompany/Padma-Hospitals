@@ -85,14 +85,18 @@
           <!-- end social-media -->
 
           <ul class="nav navbar-nav">
-            <li><a href="/" class="extra-style active">Home</a></li>
+            <li><a href="index.html" class="extra-style active">Home</a></li>
             <li><a href="about.html" class="extra-style">About Us</a></li>
 
             <li class="menu-item">
-              <a href="Services.html" class="extra-style">
-                <spam class="font-weight-bold font-size:900;">Services<i
-                    class="fa fa-chevron-down pq-submenu-icon drop-down-icon"></i></spam>
-              </a>
+              <div class="drop">
+                <a href="#" class="extra-style">
+                  <spam class="font-weight-bold font-size:900;">Services<i
+                      class="fa fa-chevron-down pq-submenu-icon drop-down-icon"></i></spam>
+                </a>
+                <span class="plus">+</span>
+              </div>
+             
               <ul class="sub-menu">
 
                 <li class="menu-item">
@@ -119,12 +123,16 @@
               </ul>
             </li>
 
-            <li><a href="index.html#doctors" class="extra-style">Our Doctors</a></li>
+            <li><a href="doctors.html" class="extra-style">Our Doctors</a></li>
 
 
 
             <li class="menu-item">
-              <a href="#" class="extra-style">Blogs<i class="fa fa-chevron-down pq-submenu-icon drop-down-icon"></i></a>
+              <div class="drop">
+                <a href="#" class="extra-style">Blogs<i class="fa fa-chevron-down pq-submenu-icon drop-down-icon"></i></a>
+                <span class="plus">+</span>
+              </div>
+             
               <ul class="sub-menu">
                 <li class="menu-item1 ">
                   <a href="#" class="sub-menu1">ENT Blogs<i class="fa fa-chevron-right pq-submenu-icon drop-right-icon"></i></a>
@@ -141,7 +149,7 @@
                   </ul>
                 </li>
                 <li class="menu-item1 ">
-                  <a href="#" class="sub-menu1">Piles Blogs</a>
+                  <a href="Piles-blogs.html" class="sub-menu1">Piles Blogs</a>
                       
                 </li>
                 <li class="menu-item1 ">
@@ -165,7 +173,15 @@
 
 
   </header>
+  <style>
+.drop{
+  display: flex;
 
+}
+.plus{
+
+}
+  </style>
   <section class="slider">
     <div class="demo-2">
       <div id="slider" class="sl-slider-wrapper">
@@ -233,7 +249,29 @@
 
 
 
+<script>
+// JavaScript
 
+
+
+
+const plusButtons = document.querySelector(".plus");
+const dropdowns = document.querySelectorAll(".navbar-nav li ul");
+
+dropdowns.forEach(plusButton => {
+    plusButtons.addEventListener("click", () => {
+        // Check if the device width is less than or equal to 992px
+        if (window.innerWidth <= 992) {
+            // Toggle the 'active' class to show/hide the dropdown menu
+            plusButton.classList.toggle("active");
+        }
+    });
+});
+ 
+
+
+
+</script>
 
 
 
@@ -307,7 +345,7 @@
       <div class="row">
         <h3 class="title-style text-center mb-5">Our Best <span>Services</span></h3>
       <h4 class="text-center">Advanced Laser Treatments</h4>
-        <div class="col-lg-3 col-md-6 col-xs-12 item card-item">
+        <div class="col-lg-3 col-md-6 col-xs-12 item card-item dark-green">
           <div class="content-left-sec text-center">
             <a class="blog-link d-block zoom-image" href="#url"><img src="./images/image27.jpg"
                 class="img-fluid scale-image" alt=""></a>
@@ -315,13 +353,13 @@
               <a href="#url">
                 <h4 class="mb-0">Anal Fissures Laser Treatment</h4>
               </a>
-              <p class="text-info">A non healing crack in the skin of the anus causing pain during and after
+              <p class="text-white">A non healing crack in the skin of the anus causing pain during and after
                 defecation.</p>
               <a href="laser-ENT.html" class="btn-turquaz-md readmore-btn">READ MORE</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-xs-12 item card-item">
+        <div class="col-lg-3 col-md-6 col-xs-12 item card-item blue">
           <div class="content-left-sec text-center">
             <a class="blog-link d-block zoom-image" href="#url"><img src="images/image22.jpg"
                 class="img-fluid scale-image" alt=""></a>
@@ -329,13 +367,13 @@
               <a href="#url">
                 <h4 class="mb-0">Laser Piles and Fissures Treatment</h4>
               </a>
-              <p class="text-info">Piles are protrusions of varicose veins and connective tissue around the anal canal
+              <p class="text-white">Piles are protrusions of varicose veins and connective tissue around the anal canal
                 extending to inside the rectum.</p>
               <a href="laser.html" class="btn-turquaz-md readmore-btn">READ MORE</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-xs-12 item card-item">
+        <div class="col-lg-3 col-md-6 col-xs-12 item card-item green">
           <div class="content-left-sec text-center">
             <a class="blog-link d-block zoom-image" href="#url"><img src="images/image28.jpg"
                 class="img-fluid scale-image" alt=""></a>
@@ -343,13 +381,13 @@
               <a href="#url">
                 <h4 class="mb-0">Anal Fistula Laser Treatment</h4>
               </a>
-              <p class="text-info">Along standing draining “Pimple” around the anus causing frequent soiling of
+              <p class="text-white">Along standing draining “Pimple” around the anus causing frequent soiling of
                 underwear,itching pain & discharge.</p>
               <a href="laser.html" class="btn-turquaz-md readmore-btn">READ MORE</a>
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-xs-12 item card-item">
+        <div class="col-lg-3 col-md-6 col-xs-12 item card-item dark-green">
           <div class="content-left-sec text-center">
             <a class="blog-link d-block zoom-image" href="#url"><img src="images/image29.jpg"
                 class="img-fluid scale-image" alt=""></a>
@@ -357,7 +395,7 @@
               <a href="#url">
                 <h4 class="mb-0">Laser Treatment for Pilonidal Sinus</h4>
               </a>
-              <p class="text-info">Sometimes called as “Haircyst”. It is an infected tract under the skin between the
+              <p class="text-white">Sometimes called as “Haircyst”. It is an infected tract under the skin between the
                 buttocks.</p>
               <a href="laser.html" class="btn-turquaz-md readmore-btn">READ MORE</a>
             </div>
@@ -370,7 +408,9 @@
     .text-dark {
       color: #000000;
     }
-
+    .blog-info a{
+      color: #ffffff;
+    }
     .card-item {
       background-color: #ffffff;
       padding: 10px;
@@ -399,6 +439,15 @@
     }
     .blog-info .readmore-btn{
       justify-self: flex-end;
+    }
+    .dark-green{
+      background-color: #008609;
+    }
+    .blue{
+      background-color: #000a97;
+    }
+    .green{
+      background-color: #00ff11;
     }
   </style>
   <!-- end frase -->
@@ -553,7 +602,7 @@
             </div>
           </div>
           <div class="col-12">
-            <button><a href="bookappointment.html" class="btn btn-dark py-3 text-info bg-white" role="button">Make Appointment</a></button>
+            <button><a href="bookappointment.html" class="btn btn-dark py-3 text-white bg-white" role="button">Make Appointment</a></button>
           </div>
         </div>
       </form>
