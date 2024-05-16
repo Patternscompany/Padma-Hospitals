@@ -584,6 +584,10 @@
     width: 100%;
 
   }
+  footer img{
+    width: 200px;
+    object-fit: scale-down ;
+  }
   .navbar-nav li ul li a:hover {
    
     background-color: #fff; 
@@ -1558,7 +1562,8 @@
     font-weight: 800;
     margin-top: 6px;
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
+text-transform: uppercase;
   }
   footer h4:after {
     content: "";
@@ -1567,8 +1572,9 @@
     background: #fff;
     position: absolute;
     left: 0;
-    bottom: -20px;
+    bottom: 0px;
   }
+ 
   footer form {
     float: left;
     padding-left: 30px;
@@ -1593,7 +1599,7 @@
     float: left;
     margin: 0;
     margin-right: 20px;
-    padding: 0;
+    padding-top: 10px;
   }
   footer ul li {
     width: 100%;
