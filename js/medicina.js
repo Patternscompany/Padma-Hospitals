@@ -107,3 +107,15 @@ window.addEventListener('DOMContentLoaded', function() {
             fadeOutTime: 1000
         });
     });
+	const plusButtons = document.querySelectorAll(".plus");
+const dropdowns = document.querySelectorAll(".navbar-nav li ul");
+
+plusButtons.forEach((plusButton, index) => {
+    plusButton.addEventListener("click", () => {
+        // Check if the device width is less than or equal to 992px
+        if (window.innerWidth <= 992) {
+            // Toggle the 'active' class to show/hide the dropdown menu
+            dropdowns[index].classList.toggle("active");
+        }
+    });
+});
