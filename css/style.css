@@ -2108,3 +2108,8 @@
     padding-right: 10px;
     font-size: 23px;
   }
+  .active{
+    border-bottom: 3px solid #42b3e5;
+    color: #42b3e5 !important;
+    width: fit-content;
+  }
