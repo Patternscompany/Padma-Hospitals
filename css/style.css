@@ -569,6 +569,7 @@
     background: #fff;
     opacity: 0;
     visibility: hidden;
+    
   }
 
   .navbar-nav li ul li {
@@ -613,16 +614,19 @@
   }
   @media(max-width:992px){
     .navbar-nav li:hover ul {
-      opacity: 0;
+      opacity: 1;
       display: none !important;
   }
   .navbar-nav li ul {
-      opacity: 0;
+      opacity: 1;
       display: none !important;
   }
   .navbar-nav li ul.active {
       opacity: 1;
+     
       display: block !important;
+      visibility: unset;
+      transition: display 1s all ease;
   }
   .drop-down-icon{
     display: none !important;

@@ -4290,6 +4290,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
   -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
+@media(max-width:992px){
+  .navbar-collapse{
+    height: 60vh;
+    overflow-y: scroll;
+  }
+}
 .navbar-collapse.in {
   overflow-y: auto;
 }
