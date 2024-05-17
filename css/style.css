@@ -613,16 +613,17 @@
   }
   @media(max-width:992px){
     .navbar-nav li:hover ul {
-      opacity: 0;
+      opacity: 1;
       display: none !important;
   }
   .navbar-nav li ul {
-      opacity: 0;
+      opacity: 1;
       display: none !important;
   }
   .navbar-nav li ul.active {
       opacity: 1;
       display: block !important;
+      visibility: unset;
   }
   .drop-down-icon{
     display: none !important;
